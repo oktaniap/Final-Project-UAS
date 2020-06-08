@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SI-PANDU</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <nav>
+                <ul>
+                    <li><a href="index.php" style="font-size: 18px;"><i class="fa fa-home"></i> Home</a></li>
+                    <li><a href="lokasi.html" style="font-size: 18px;"><i class="fas fa-globe"></i> Lokasi</a></li>
+                    <li><a href="cari.html" style="font-size: 18px;"><i class="fas fa-search"></i> Cari Data</a></li>
+                    <li style="float: right;"><a href="login.html" style="font-size: 18px;"><i class="fas fa-sign-in-alt"></i> Login</a></li>
+                </ul>
+            </nav>
+            <img src="logo.png" width="140px" class="posyandu">
+            <img src="waru.png" width="140px" class="waru">
+            <img src="judul.png" width="700px" class="judul">
+            <marquee bgcolor=#66CDAA><b>SELAMAT DATANG DI WEBSITE SISTEM INFORMASI POSYANDU TANJUNG 1 PEPELEGI WARU SIDOARJO</b></marquee>
+        </div>
+        <div id="isi" style="height:100%; width:100%; float:left; padding-top: 50px; padding-bottom: 50px; text-align: center;">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header" style="background-color:#696969;">
+                        <b style="font-size: 30px; color: white;">LOGIN</b>
+                    </div>
+                    <div class="card-body" style="background-color: #D3D3D3;">
+                        <form method="POST" action="login1.php">
+                            <div class="form-group row" style="padding-top: 25px;">
+                                <div class="col-sm-12">
+                                    <input type="text" name="username" placeholder="Username" style="font-size: 23px; border-radius: 4px;">
+                                </div>
+                            </div>
+                            <div class="form-group row" style="padding-top: 15px; padding-bottom: 20px;">
+                                <div class="col-sm-12">
+                                    <input type="password" name="password" placeholder="Password" style="font-size: 23px; border-radius: 4px;">
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary">
+                                LOGIN
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <font color="white">Copyright &#169; 2020 SI-PANDU</font>
+        </div>
+    </div>
+</body>
+</html>

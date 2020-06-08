@@ -1,0 +1,80 @@
+* {
+    margin:0; 
+    padding:0;
+}
+nav {
+    margin:auto;
+    text-align: center;
+    width: 100%;
+    position: relative;
+} 
+nav ul {
+    background:#008B8B;
+    padding: 0 0px;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    width: 100%;
+}
+nav ul li{
+    float:left;
+}
+nav ul li:hover{
+    background:#F0FFFF;
+}
+nav ul li:hover a{
+    color:#000;
+}
+nav ul li a{
+    display: block;
+    padding: 22px;
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li:hover .sub1 {
+    display:block;
+}
+nav ul .sub1 {
+    display:none;
+    position:absolute;
+    background-color:white;
+}
+.sub1 a:hover { 
+    color:black;
+    background-color: gray;
+}
+b{
+    letter-spacing: 0.1cm;
+}
+.slideshow {
+    display: none;
+    border:10px solid #ddd;
+    border-radius:20px;
+    width: 500px;
+    height: 300px;
+}
+#container {
+    width:100%;
+}
+#footer {
+    background-color:#000000;
+    clear:both;
+    text-align:center; 
+    line-height: 30px;
+    margin-top: 50px;
+}
+.posyandu{
+    padding-left: 50px;
+    padding-bottom: 20px; 
+}
+.waru{
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+.judul{
+    padding-bottom: 10px; 
+    padding-left: 20px;
+}
+.warning {
+    color: #FF0000;
+}
